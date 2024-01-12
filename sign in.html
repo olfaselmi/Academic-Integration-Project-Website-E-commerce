@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form by Colorlib</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="css/details.css">   
+</head>
+<body>
+
+    <div class="main">
+
+        <!-- Sign up form -->
+        <section class="signup">
+            <div class="container">
+                <div class="signup-content">
+                    <div class="signup-form">
+                        <h2 class="form-title">Sign up</h2>
+                        <form method="POST" action="ajoutclient.php">
+                            <table>
+                            <caption>Inscription</caption>
+                            <tr>
+                            <td>identifiant</td>
+                            <td><input type="text" name="Id_clt"></td>
+                            </tr>
+                            <tr>
+                            <td>Nom</td>
+                            <td><input type="text" name="Nom"></td>
+                            </tr>
+                            <tr>
+                            <td>Prenom</td>
+                            <td><input type="text" name="Prenom"></td>
+                            </tr><tr>
+                                    <td>adresse du client</td>
+                                    <td><input type="text" name="Adresse"></td>
+                                    </tr><tr>
+                                    <td>mot de passe </td>
+                                    <td><input type="password" name="Password"></td>
+                                    </tr>
+                                    <tr>
+                                            <td>code postal</td>
+                                            <td><input type="number" name="codepostal"></td>
+                                            </tr>
+                            <tr>
+                            <td>telephone</td>
+                            <td><input type="number" name="numero"></td>
+                            </tr>
+                            
+                                   
+                                            
+                                                    <tr>
+                                                            <td>mail</td>
+                                                            <td><input type="email" name="Email"></td>
+                                                            </tr> 
+                                            <tr>
+                            <td></td>
+                            <td><input type="submit" name="ajouter" value="ajouter"></td>
+                            </tr>
+                            </table>
+                            </form>
+                    </div>
+                    <div class="signup-image">
+                        <figure><img src="images/paint2.jpg" alt="sing up image"></figure>
+                        <a href="login.html" class="signup-image-link">I am already member</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sing in  Form -->
+       
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<script>
+  function calculatetotalprice()
+{
+	var multi1=window.document.getElementById('firstcount').value;
+var resultat= 49.00 * multi1;
+alert(resultat);
+return resultat;
+}
+
+function calculatetotalprice2()
+{
+	var multi2=window.document.getElementById('scount').value;
+var resultat= 30.00 * multi2;
+alert(resultat);
+return resultat;
+}
+
+function calculatetotalprice3()
+{
+	var multi3=window.document.getElementById('tcount').value;
+var resultat= 10.00 * multi3;
+alert(resultat);
+return resultat;
+}
+
+function calculatetotalprice4()
+{
+	var multi4=window.document.getElementById('totcount').value;
+var resultat= 26.00 * multi4;
+alert(resultat);
+return resultat;
+}
+
+function calculatetotalpricetot()
+{
+	var multi1=window.document.getElementById('firstcount').value;
+	var multi2=window.document.getElementById('scount').value;
+	var multi3=window.document.getElementById('tcount').value;
+	var multi4=window.document.getElementById('totcount').value;
+
+	var resultat1= 49.00 * multi1;
+	var resultat2= 30.00 * multi2;
+	var resultat3= 10.00 * multi3;
+	var resultat4= 26.00 * multi4;
+var resultattot = resultat1+resultat2+resultat3+resultat4;
+alert(resultattot);
+return resultattot;
+}
+
+function updateprix()
+{
+  document.getElementById('resultat1-1').value=calculatetotalprice();
+  document.getElementById('resultat2-1').value=calculatetotalprice2();
+  document.getElementById('resultat3-1').value=calculatetotalprice3();
+  document.getElementById('resultat4-1').value=calculatetotalprice4();
+  document.getElementById('resultattot-1').value=calculatetotalpricetot();
+}
+
+</script>
+<html lang="en">
+  <head>
+    <title>Reviewers &mdash; Event Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta:300,400,700"> 
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    
+    <link rel="stylesheet" href="css/details.css">   
+  
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <script language="javascript" type="text/javascript" src="animation.js"></script>
+  </head>
+  <body>
+  <div class="site-wrap">
+    <header class="site-navbar" role="banner">
+      <div class="site-navbar-top">
+        <div class="container">
+          <div class="row align-items-center">
+
+            <div class="col-6 col-md-4 order-2 order-md-1 site-search-icon text-left">
+              <form action="" class="site-block-top-search">
+                <span class="icon icon-search2"></span>
+                <input type="text" class="form-control border-0" placeholder="Search">
+              </form>
+            </div>
+
+            <div class="col-12 mb-3 mb-md-0 col-md-4 order-1 order-md-2 text-center">
+              <div class="site-logo">
+                <a href="homepage.html" class="js-logo-clone">Reviewers</a>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 order-3 order-md-3 text-right">
+              <div class="site-top-icons">
+                <ul>
+                  <li><a href="#"><span class="icon icon-person"></span></a></li>
+                  <li><a href="#"><span class="icon icon-heart-o"></span></a></li>
+                  <li>
+                    <a href="viewCart.php" class="site-cart">
+                      <span class="icon icon-shopping_cart"></span>
+                      <span class="count">2</span>
+                    </a>
+                  </li> 
+                  <li class="d-inline-block d-md-none ml-md-0"><a href="#" class="site-menu-toggle js-menu-toggle"><span class="icon-menu"></span></a></li>
+                </ul>
+              </div> 
+            </div>
+
+          </div>
+        </div>
+      </div> 
+      <nav class="site-navigation text-right text-md-center" role="navigation">
+        <div class="site-section2">
+          <div class="box">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+              </div>
+          <ul class="site-menu js-clone-nav d-none d-md-block">
+            <li class="has-children">
+              <a href="homepage.html"><h4>Déconnexion</h4></a>
+            </li>
+            <li class="has-children">
+              <a href="choose table client.html"><h4>Page Client</h4></a>
+              <ul class="dropdown">
+                <li><a href="#">Menu One</a></li>
+                <li><a href="#">Menu Two</a></li>
+                <li><a href="#">Menu Three</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+
+
+
+<div class="site-section">
+    <div class="container">
+      <div class="row mb-5">
+          <div class="site-blocks-table">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th class="product-thumbnail">Pack</th>
+                  <th class="product-name">Name</th>
+                  <th class="product-price">Price</th>
+                  <th class="product-quantity">Quantity</th>
+                  <th class="product-total">Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  
+                  <td class="product-name">
+                    <img src="images/c1-1.jpg" alt="Image" class="img-fluid">
+                    <h2 class="h5 text-black"></h2>
+                  </td>
+                  <td rowspan="2"><h2 class="h5 text-black">Annivairsaire</h2></td>
+                  <td>
+                    D49.00
+          
+                  </td>
+                  <td>
+                    <div class="input-group mb-3" style="max-width: 120px;">
+                      <div class="input-group-prepend">
+                        <button class="btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="number" class="form-control text-center" id='firstcount' value="1" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </div>
+                  </td>
+                  <td><button class="btn btn-primary btn-sm" onclick="calculatetotalprice()" name="resultat1" required>Calculate</button></td>
+                </tr>
+
+                <tr>
+                  <td class="product-thumbnail">
+                    <img src="images/straw-1.jpg" alt="Image" class="img-fluid">
+                  </td>
+                  <td class="product-name">
+                    D30.00
+                  </td>
+                  <td>
+                    <div class="input-group mb-3" style="max-width: 120px;">
+                      <div class="input-group-prepend">
+                        <button class="btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="number" class="form-control text-center" value="1" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" id="scount">
+                      <div class="input-group-append">
+                        <button class="btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </div>
+
+                  </td>
+                  <td><button class="btn btn-primary btn-sm" onclick="calculatetotalprice2()" name="resultat2" required>Calculate</button></td>
+       </a></td>
+                </tr>
+                <tr>
+                  <td class="product-thumbnail">
+                    <img src="images/c3-1.jpg" alt="Image" class="img-fluid">
+                  </td>
+                  <td class="product-name">
+                    <h2 class="h5 text-black">Marriage</h2>
+                  </td>
+                  <td>D10.00</td>
+                  <td>
+                    <div class="input-group mb-3" style="max-width: 120px;">
+                      <div class="input-group-prepend">
+                        <button class="btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="number" class="form-control text-center" value="1" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" id="tcount">
+                      <div class="input-group-append">
+                        <button class="btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </div>
+
+                  </td>
+                  <td><button class="btn btn-primary btn-sm" onclick="calculatetotalprice3()" name="resultat3" required>Calculate</button></td>
+       </a></td>
+                </tr>
+                <tr>
+                  <td class="product-thumbnail">
+                    <img src="images/c4-1.jpg" alt="Image" class="img-fluid">
+                  </td>
+                  <td class="product-name">
+                    <h2 class="h5 text-black">Cérémonie naissance</h2>
+                  </td>
+                  <td>d26.00</td>
+                  <td>
+                    <div class="input-group mb-3" style="max-width: 120px;">
+                      <div class="input-group-prepend">
+                        <button class="btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="number" class="form-control text-center" value="1" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" id="totcount">
+                      <div class="input-group-append">
+                        <button class="btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </div>
+
+                  </td>
+                  <td><button class="btn btn-primary btn-sm" onclick="calculatetotalprice4()" name="resultat4" required>Calculate</button></td>
+                  
+                  
+                </tr>
+                <tr><td><button class="btn btn-primary btn-sm btn-block" onclick="calculatetotalpricetot()" name="resultattot" required>total price</button></a>
+                </a></td></tr>
+              </tbody>
+            </table>
+          </div>
+        
+
+          
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row mb-5">
+            <form method="POST" action="calculateprice.php">
+              <table>
+                <div class="container">
+                  <div class="signup-content">
+                <tr>
+                <td>resultat1</td>
+                <td><input type="number" name="resultat1-1" id="resultat1-1" value=0 required placeholder="resultat1?"></td>
+                </tr>
+                <tr>
+                <td>resultat2</td>
+                <td><input type="number" name="resultat2-1" id="resultat2-1" value=0 required placeholder="resultat2?"></td>
+                </tr>
+                <tr>
+                <td>resultat3</td>
+                <td><input type="number" name="resultat3-1" id="resultat3-1" value=0 required placeholder="resultat3?"></td>
+                </tr>
+                <tr>
+                  <td>resultat4</td>
+                  <td><input type="number" name="resultat4-1" id="resultat4-1" value=0 required placeholder="resultat4?"></td>
+                  </tr>
+                  <tr>
+                    <td>resultattot</td>
+                    <td><input type="number" name="resultattot-1" id="resultattot-1" value=0 required placeholder="resultattot?"></td>
+                    </tr>
+                </div></div>
+          
+                  </div>
+                </table>
+            <div class="col-md-6">
+              <button class="btn btn-outline-primary btn-sm btn-block">Continue</button>
+            </div>
+          </form>
+          <div class="col-md-6 mb-3 mb-md-0">
+            <button class="btn btn-primary btn-sm btn-block" onclick="updateprix()">Passer</button>
+          </div>
+          </div>
+         
+        </div>
+      
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/aos.js"></script>
+
+<script src="js/main.js"></script>
+  
+</body>
+</html>
